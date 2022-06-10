@@ -38,8 +38,4 @@
 - Typescript
 - CSS
 - Node
-<<<<<<< HEAD
 - Jest
-=======
-- Jest
->>>>>>> a0e738f9c3d457055f3e5e022dc5102ec42a9da5
