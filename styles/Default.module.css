@@ -1,0 +1,162 @@
+.homeGeral{
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContainer{
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContainer h1{
+  text-transform: uppercase;
+}
+
+.homeContainer a{
+  text-transform: uppercase;
+  background-color: burlywood;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 700;
+  color: #fff;
+  margin: 10px;
+  border:none;
+  cursor: pointer;
+}
+
+.homeContainer a:hover{
+  background-color: rgb(168, 140, 103);
+}
+
+.produtosGeral{
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.produtosContainer{
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: content;
+}
+
+.produtosContainer h1{
+  margin: 5%;
+  text-transform: uppercase;
+}
+
+.produto{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.title{
+  width: 100%;
+  max-width: 60%;
+  padding: 8px;
+}
+
+.price{
+  width: 100%;
+  max-width: 60%;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.category{
+  width: 100%;
+  max-width: 60%;
+  padding: 4px;
+  font-size: 16px;
+}
+
+.description{
+  width: 100%;
+  max-width: 60%;
+  padding: 4px;
+  font-size: 14px;
+}
+
+.produtosGeral a{
+  text-transform: uppercase;
+  background-color: rgb(234, 69, 113);
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border:none;
+  cursor: pointer;
+}
+
+
+.btnAddCarrinho{
+  text-transform: uppercase;
+  background-color: rgb(114, 232, 101);
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 10px;
+  font-weight: 700;
+  color: #fff;
+  margin: 10px;
+  border:none;
+  cursor: pointer;
+}
+
+.btnAddCarrinho:hover{
+  background-color: rgb(90, 180, 80);
+}
+
+.carrinhoGeral{
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrinhoGeral a{
+  text-transform: uppercase;
+  background-color: rgb(234, 69, 113);
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border:none;
+  cursor: pointer;
+}
