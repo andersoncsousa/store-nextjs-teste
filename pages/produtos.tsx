@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect, useState, useContext } from 'react'
-import { CartContext } from '../context/CartContext/'
+// import { CartContext } from '../context/CartContext/'
 
 import styles from '../styles/Default.module.css'
 
@@ -21,9 +21,7 @@ interface ResponseData {
 
 export default function Produtos () {
     const [products, setProducts] = useState<ResponseData[]>([])
-    const {handleAddItemCart}  = useContext(CartContext)
-
-
+    // const {handleAddItemCart}  = useContext(CartContext)
 
     useEffect(() => {
         api
@@ -61,20 +59,13 @@ export default function Produtos () {
                                 <h3 className={styles.price}>{products.price}</h3>
                                 <h4 className={styles.category}>{products.category}</h4>
                                 <h5 className={styles.description}>{products.description}</h5>
-                                <button className={styles.btnAddCarrinho} onClick={() => handleAddItemCart(products.id, products.title, products.price)}>Adicionar no carrinho</button>
+                                <button className={styles.btnAddCarrinho}>Adicionar no carrinho</button>
                             </div>
                         )
                     })}
                 </div>
             </div>
-            <Link className={styles.btnVoltar} href="/" 
-            // style={{
-            //     fontSize:'20px',
-            //     fontWeight:'900',
-            //     color:'#f0f',
-            //     padding: '15px',
-            // }}
-            >Voltar a página</Link>
+            <Link className={styles.btnVoltar} href="/">Voltar a página</Link>
         </div>
     )
 }
